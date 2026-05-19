@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sugar Bliss Bakery</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family:Arial, sans-serif;
+            background-color:#fff0f5;
+            text-align:center;
+        }
+
+        /* Navbar */
+        .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background-color:#fd94a3;
+}
+
+.navbar h2{
+    margin:0;
+    color:white;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+    padding:8px 15px;
+}
+
+.navbar a:hover{
+    color:#c2185b;
+    color:white;
+}
+
+        /* Sections */
+        .hero{
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:55px;
+    letter-spacing:3px;
+}
+
+.hero p{
+    font-size:20px;
+    margin-top:10px;
+    margin-bottom:25px;
+}
+
+.hero button{
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.hero img{
+    width:350px;
+    border-radius:25px;
+    margin-top:40px;
+    transition:0.3s;
+}
+
+.hero img:hover{
+    transform:scale(1.05);
+}
+
+        /* Button */
+    .navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background-color:#fd94a3;
+}
+
+/* logo */
+.navbar h2{
+    color:white;
+    margin:0;
+}
+
+/* buttons */
+button{
+    background-color:#c2185b;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+/* hover effect */
+button:hover{
+    background-color:#880e4f;
+    transform:scale(1.05);
+}
+
+        /* Menu cards */
+        .menu-item{
+            display:inline-block;
+            width:180px;
+            margin:10px;
+            padding:10px;
+            background:#fff;
+            border-radius:10px;
+            box-shadow:0px 2px 6px rgba(0,0,0,0.2);
+        }
+
+        .menu-item:hover{
+            transform:scale(1.05);
+            transition:0.3s;
+        }
+
+        img{
+            border-radius:10px;
+            margin:10px;
+        }
+
+
+        #about{
+    padding:70px 20px;
+    text-align:center;
+    background-color:#fff8fb;
+}
+
+#about h2{
+    color:#c2185b;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+#about p{
+    font-size:18px;
+    line-height:1.7;
+    max-width:650px;
+    margin:auto;
+    color:#333;
+}
+
+    
+
+        /* Form */
+        #contact{
+    text-align:center;
+    padding:60px 20px;
+}
+
+#contact input,
+#contact textarea{
+    width:70%;
+    padding:10px;
+    margin:8px 0;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+#contact button{
+    padding:12px 25px;
+    border:none;
+    border-radius:20px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+#contact button:hover{
+    transform:scale(1.05);
+}
+        
+        
+
+        /* Footer */
+        footer{
+    text-align:center;
+    padding:25px;
+    background-color:#f1687d;
+    color:white;
+    margin-top:40px;
+}
+
+footer h3{
+    margin:5px;
+}
+
+footer p{
+    margin:5px;
+}
+</style>
+<body>
+
+<!--Navbar-->
+<nav class="navbar">
+    <h2>🍰Sweet Bakery</h2>
+
+    
+    <a href="index.html"><button>Home</button></a>
+    <a href="about.html"><button>About</button></a>
+    <a href="menu.html"><button>Menu</button>
+    </a>
+    <a href="contact.html"><button>Contact</button></a>
+</nav>
+
+<!-- Hero -->
+<div class="section">
+    <section class="hero">
+
+<h1>Sugar Bliss Bakery❤</h1>
+
+<p>
+Made with sweetness, peace and love ✨
+</p>
+<!--HERE-->
+
+<h2>🍰 Explore Our Bakery</h2>
+
+<p>Click below to see our delicious items!</p>
+
+<button onclick="alert('🍰 Cakes, Donuts, Cupcakes & Cookies await you!')">
+Explore Now
+</button>
+
+<br><br>
+
+<img src="cake.jpg.jpg"width=500>
+
+</section>
+
+<!-- About -->
+<section id="about">
+
+<h2>About Us 🌸</h2>
+
+<p>
+Welcome to Sugar Bliss Bakery ✨  
+We make fresh cakes, donuts, and cupcakes every day with love and care.  
+Our goal is to bring sweetness and happiness to your moments 🍰
+</p>
+
+</section>
+
+<!-- Menu -->
+<div class="section">
+    <h2>Have some look of our Bakery Items✨</h2>
+
+    <div class="menu-item">
+        <img src="cake.jpg.jpg" width="150">
+        <p> Cake</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="donut.jpg.jpg" width="150">
+        <p>Donut</p>
+    </div>
+
+    <div class="menu-item">
+        <img src="cupcake.jpg.jpg" width="150">
+        <p>Cupcake</p>
+    </div>
+
+    <br><br>
+
+        
+
+<!-- Contact -->
+<section id="contact">
+
+<h2>Contact Us 📩</h2>
+
+<p>If you have any questions, feel free to message us ✨</p>
+
+<form>
+
+<input type="text" placeholder="Your Name"><br><br>
+
+<input type="email" placeholder="Your Email"><br><br>
+
+<textarea placeholder="Your Message"></textarea><br><br>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<!-- Footer -->
+<footer>
+
+<h3>🍰 Sweet Bakery</h3>
+
+<p>Made with love & sweetness every day ✨</p>
+
+<p>© 2026 Sweet Bakery | All Rights Reserved</p>
+
+</footer>
+
+</body>
+</html>
