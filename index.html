@@ -1,61 +1,82 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Introduction to HTML</title>
+<title>Sweet Bakery</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:#fff0f5;
+    text-align:center;
+}
+/*NAVBAR*/
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background:#fd94a3;
+}
+
+.navbar h2{
+    margin:0;
+    color:white;
+}
+
+.navbar a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+    padding:8px 15px;
+    border-radius:20px;
+}
+
+.navbar a:hover{
+    background:#c2185b;
+    color:white;
+}
+
+
+
+footer{
+    background:lightcoral;
+    padding:20px;
+    color:white;
+    margin-top:40px;
+}
+</style>
 </head>
-</html>
-<h1>📍Introduction to HTML</h1>
+
+<body>
+
+<div class="navbar">
+<h2>🍰 Sweet Bakery</h2>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="menu.html">Menu</a>
+<a href="contact.html">Contact</a>
+</div>
+
+<h1>Welcome to Sweet Bakery 🍰</h1>
+<p>Fresh cakes, donuts & cupcakes made with love ✨</p>
 <p>
-HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. 
-HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content.
-</p>
-<h2>📌Importance of HTML</h2>
-<p>
-<h3>Foundation of Web Development</h3>: HTML decides the structure of the website content by using tags to present text, images, and links clearly.
-<h3>Cross-Platform Compatibility</h3>: HTML ensures webpages work smoothly across all devices and browsers.
-<h3>Integration</h3>: HTML works with CSS and JavaScript to create visually appealing and interactive websites.
-<h3>SEO</h3>: HTML helps search engines understand and index webpages using proper tags and structure.
-</p>
-<h2>👉LEARN MORE</h2>
-<a href="https://youtu.be/HcOc7P5BMi4?si=nbtaWxye2yfl4tGK">
-        Click here to learn HTML
-</a>
-<h2>🔎HTML image</h2>
-<img src="file:///C:/Users/Moon/Downloads/html%20image.webp" alt="HTML logo" width="400" height="142">
-<h2>💡Features of HTML</h2>
-<ul>
-   <li>Easy to learn</li>
-   <li>Used to build up web pages</li>
-   <li>Supported by  all browsers</li>
-   <li>Works with CSS and JavaScript</li>
-</ul>
-<h2>REGISTRATION FORM📜
-<form>
-        <label>Name:</label><br>
-        <input type="text"><br><br>
+Sweet Bakery 🍰 offers fresh and delicious cakes, cupcakes, donuts, and cookies made daily with love and care.<br> Every bite is prepared to bring happiness and sweetness to your day ✨.
+</p> 
+<img src="cake2.jpg" width="400"><br><br>
 
-        <label>Email:</label><br>
-        <input type="email"><br><br>
-         
-        <label>Gender:</label><br>
-        <input type="radio" name="gender"> Male
-        <input type="radio" name="gender"> Female<br><br>
 
-        <label>Courses:</label><br>
-        <input type="checkbox"> Web Development<br>
-        <input type="checkbox"> Graphic Design<br>
-        <input type="checkbox"> MERN stack development<br>
-        <input type="checkbox"> Freelancing<br><br>
+<button onclick="alert('Welcome to our menu 🍰 Enjoy exploring our bakery items!')">
+Explore Now
+</button>
 
-         <input type="submit" value="Submit">
 
-        <hr>
-        <p>Created by: Shawal Khan</p>
-        <p>Submission date: 2026</p>
 
-</form>
+<footer>
+<p>© 2026 Sweet Bakery</p>
+</footer>
 
 </body>
 </html>
-
-
